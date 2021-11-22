@@ -1,9 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import MyContext from './context/MyContext';
 import App from './App';
+import ReactDOM from 'react-dom';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 ReactDOM.render(
-    <App />, document.querySelector('#root')
+    <MyContext>
+        <App />
+    </MyContext>,
+    document.querySelector('#root')
 );
 
 
