@@ -9,12 +9,12 @@ import { HashRouter as Router, Routes as Switch, Route } from "react-router-dom"
 import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
-    App: {
-      backgroundColor: "#fff",
-      color: "#666",
-      minHeight: "100vh",
-    }
-  }))
+  App: {
+    backgroundColor: "#fff",
+    color: "#666",
+    minHeight: "100vh",
+  }
+}))
 
 const App = () => {
 
